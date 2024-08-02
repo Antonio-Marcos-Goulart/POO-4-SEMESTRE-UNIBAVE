@@ -33,7 +33,7 @@ public class Calcular_IMC {
                 return "Obesidade";
             }
         } else {
-            return "Sexo inválido!";
+            return "Sexo inválido !";
         }
     }
 }

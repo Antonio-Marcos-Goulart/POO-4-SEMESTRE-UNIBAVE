@@ -33,7 +33,7 @@ public class Principal {
         System.out.println("Altura: " + pessoa.getAltura());
         System.out.println("Sexo: " + pessoa.getSexo());
         System.out.printf("IMC: %.4f%n", imc);
-        System.out.printf("Classificação na tabela IMC: %s%n", classificacao);
+        System.out.printf("Classificação na tabela IMC: %s%n", classificacao );
 
         sc.close();
     }

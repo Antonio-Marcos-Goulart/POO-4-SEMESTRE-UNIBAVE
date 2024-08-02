@@ -16,7 +16,6 @@ public class Pessoa {
         this.sexo = sexo;
     }
 
-    // Métodos getters e setters
     public String getNome() {
         return nome;
     }
@@ -57,3 +56,4 @@ public class Pessoa {
         this.sexo = sexo;
     }
 }
+//
