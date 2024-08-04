@@ -1,4 +1,4 @@
-package relembrando;
+package relembrandoUltimoSemestre;
 
 import java.util.Scanner;
 

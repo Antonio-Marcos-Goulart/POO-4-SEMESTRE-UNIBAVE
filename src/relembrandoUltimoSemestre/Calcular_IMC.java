@@ -1,4 +1,4 @@
-package relembrando;
+package relembrandoUltimoSemestre;
 
 public class Calcular_IMC {
 
