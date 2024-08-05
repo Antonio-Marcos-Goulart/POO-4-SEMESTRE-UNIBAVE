@@ -5,9 +5,9 @@ public class Calcular_IMC {
     public static double calculaIMC(Pessoa pessoa) {
         double peso = pessoa.getPeso();
         double altura = pessoa.getAltura();
-        return peso / (altura * altura);
+        return peso / (altura * altura); // AQUI SAI O IMC
     }
-    public static String classificarIMC(double imc, String sexo) {
+    public static String classificacao(double imc, String sexo) {
         if (sexo.equalsIgnoreCase("M")) {
             if (imc < 20.7) {
                 return "Abaixo do peso";
@@ -33,7 +33,7 @@ public class Calcular_IMC {
                 return "Obesidade";
             }
         } else {
-            return "Sexo inválido!";
+            return "Sexo inválido!\n-> FAÇA NOVAMENTE INSERINDO O SEXO PARA CONSEGUIR O VALOR E A CLASSIFICAÇÃO DO IMC";
         }
     }
 }
