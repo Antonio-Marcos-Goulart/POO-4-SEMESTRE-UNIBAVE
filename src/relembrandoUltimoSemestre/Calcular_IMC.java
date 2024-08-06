@@ -33,7 +33,7 @@ public class Calcular_IMC {
                 return "Obesidade";
             }
         } else {
-            return "Sexo inválido!\n-> FAÇA NOVAMENTE INSERINDO O SEXO PARA CONSEGUIR O VALOR E A CLASSIFICAÇÃO DO IMC";
+            return "SEXO INVÁLIDO!\n-> FAÇA NOVAMENTE INSERINDO O SEXO PARA CONSEGUIR O VALOR E A CLASSIFICAÇÃO DO IMC";
         }
     }
 }
